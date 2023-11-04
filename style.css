@@ -1,0 +1,59 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+
+    position: relative;
+  
+    height: 100vh;
+    background-image: #7d828b;
+    background: url(Black\ White\ Grayscale\ Portfolio\ Presentation.jpg);
+    background-size: cover;
+
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px ;
+}
+nav h4:hover{
+    color: red;
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.detel h1{
+    font-size: 50px;
+    color: #cab3b3;
+    margin-bottom: 20px;
+}
+span{
+    color:orange;
+    padding:100px 0;
+}
+.detel p{
+    color: #dec7c7;
+    line-height: 22px;
+}
+.detel a{
+    background: #e73e3e;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
